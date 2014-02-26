@@ -1,3 +1,46 @@
+0.9.0 / 2013-02-26
+=================
+* rpc support for zmq
+* rpc requests callback timeout
+* rpc support for hot restart
+* optimize for command line
+* support for connection blacklist
+* protobuf support for decodeIO-protobuf.js
+* channel serialization interface
+
+0.8.9 / 2013-02-21
+=================
+* fix fin_wait2 caused by socket.end bug
+
+0.8.8 / 2013-02-19
+=================
+* fix some typos in comment
+
+0.8.7 / 2013-01-28
+=================
+* refactor pomelo command, report remained servers if kill failed 
+
+0.8.6 / 2013-01-22
+=================
+* upgrade pomelo-rpc 0.2.9
+* upgrade pomelo-admin 0.2.9
+
+0.8.5 / 2013-01-22
+=================
+* upgrade pomelo-rpc 0.2.8
+* upgrade pomelo-scheduler 0.3.8
+
+0.8.4 / 2013-01-20
+=================
+* fix bin/pomelo spell bug
+
+0.8.3 / 2013-01-16
+=================
+* add tcp socket close option
+* upgrade pomelo-rpc 0.2.7
+* upgrade pomelo-admin 0.2.8
+* upgrade pomelo-schedule 0.3.7
+
 0.8.2 / 2013-01-03
 =================
 * fix session kick bug issue #355
