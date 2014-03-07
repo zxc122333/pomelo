@@ -42,7 +42,8 @@
     "toobusy-js": "*",
     "pomelo-protobuf": "0.4.0",
     "node-bignumber": "1.2.1",
-    "commander": "2.0.0"
+    "commander": "2.0.0",
+    "co":"*"
   },
   "bin": {
     "pomelo": "./bin/pomelo"
