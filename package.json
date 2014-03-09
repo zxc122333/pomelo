@@ -38,7 +38,7 @@
     "pomelo-monitor": "0.3.7",
     "pomelo-logger": "0.1.2",
     "pomelo-scheduler": "0.3.8",
-    "ws": "0.4.25",
+    "ws": "0.4.31",
     "toobusy-js": "*",
     "pomelo-protobuf": "0.4.0",
     "node-bignumber": "1.2.1",
