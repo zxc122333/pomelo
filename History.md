@@ -1,3 +1,7 @@
+0.0.1@co / 2013-03-20
+=================
+fix all node 0.11 build
+
 0.9.3 / 2013-03-11
 =================
 * upgrade pomelo-admin to 0.3.2 for npm reason
