@@ -1,26 +1,60 @@
-0.0.1@co / 2013-03-20
+0.9.9 / 2014-05-06
 =================
-fix all node 0.11 build
+* merge pull request #495
+* merge pull request #499
+* merge pull request #501
+* upgrade pomelo-admin to 0.3.4
 
-0.9.3 / 2013-03-11
+0.9.8 / 2014-05-04
+=================
+* remove unused module
+* update constants definition
+
+0.9.7 / 2014-04-25
+=================
+* merge pull request #486
+* add channelservice rpc error info
+
+0.9.6 / 2014-04-16
+=================
+* merge pull request #472
+* merge pull request #475
+* merge pull request #485
+* update ssh config
+
+0.9.5 / 2014-04-02
+=================
+* add support for different env
+* add session count method in sessionService
+* emit start_all_event
+* better prompt for init project
+
+0.9.4 / 2014-03-20
+=================
+* merge pull request from zhaohaojie
+* merge pull request from wuxian
+* merge pull request from roytan883
+* fix history.md year bug
+
+0.9.3 / 2014-03-11
 =================
 * upgrade pomelo-admin to 0.3.2 for npm reason
 
-0.9.2 / 2013-03-10
+0.9.2 / 2014-03-10
 =================
 * merge pull request sshPort
 * merge pull request #438
 * fix hybridconnector dict bug
 * upgrade pomelo-rpc to 0.3.2
 
-0.9.1 / 2013-03-03
+0.9.1 / 2014-03-03
 =================
 * fix pomelo stop auto-restart bug
 * add restart-force option
 * add application.require method
 * export constants.js
 
-0.9.0 / 2013-02-26
+0.9.0 / 2014-02-26
 =================
 * rpc support for zmq
 * rpc requests callback timeout
@@ -30,40 +64,40 @@ fix all node 0.11 build
 * protobuf support for decodeIO-protobuf.js
 * channel serialization interface
 
-0.8.9 / 2013-02-21
+0.8.9 / 2014-02-21
 =================
 * fix fin_wait2 caused by socket.end bug
 
-0.8.8 / 2013-02-19
+0.8.8 / 2014-02-19
 =================
 * fix some typos in comment
 
-0.8.7 / 2013-01-28
+0.8.7 / 2014-01-28
 =================
 * refactor pomelo command, report remained servers if kill failed 
 
-0.8.6 / 2013-01-22
+0.8.6 / 2014-01-22
 =================
 * upgrade pomelo-rpc 0.2.9
 * upgrade pomelo-admin 0.2.9
 
-0.8.5 / 2013-01-22
+0.8.5 / 2014-01-22
 =================
 * upgrade pomelo-rpc 0.2.8
 * upgrade pomelo-scheduler 0.3.8
 
-0.8.4 / 2013-01-20
+0.8.4 / 2014-01-20
 =================
 * fix bin/pomelo spell bug
 
-0.8.3 / 2013-01-16
+0.8.3 / 2014-01-16
 =================
 * add tcp socket close option
 * upgrade pomelo-rpc 0.2.7
 * upgrade pomelo-admin 0.2.8
 * upgrade pomelo-schedule 0.3.7
 
-0.8.2 / 2013-01-03
+0.8.2 / 2014-01-03
 =================
 * fix session kick bug issue #355
 * fix add rpc filter bug

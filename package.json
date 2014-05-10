@@ -1,6 +1,6 @@
 {
   "name": "pomelo",
-  "version": "0.9.3",
+  "version": "0.9.9",
   "private": false,
   "homepage": "https://github.com/NetEase/pomelo",
   "repository": {
@@ -42,8 +42,7 @@
     "toobusy-js": "*",
     "pomelo-protobuf": "0.4.0",
     "node-bignumber": "1.2.1",
-    "commander": "2.0.0",
-    "co":"*"
+    "commander": "2.0.0"
   },
   "bin": {
     "pomelo": "./bin/pomelo"
