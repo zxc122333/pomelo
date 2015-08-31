@@ -11,7 +11,7 @@ var Handler = function(app) {
  *
  * @param  {Object}   msg     request message
  * @param  {Object}   session current session object
- * @param  {Function} next    next stemp callback
+ * @param  {Function} next    next step callback
  * @return {Void}
  */
 Handler.prototype.entry = function(msg, session, next) {
@@ -23,11 +23,15 @@ Handler.prototype.entry = function(msg, session, next) {
  *
  * @param  {Object}   msg     request message
  * @param  {Object}   session current session object
- * @param  {Function} next    next stemp callback
+ * @param  {Function} next    next step callback
  * @return {Void}
  */
 Handler.prototype.publish = function(msg, session, next) {
-  next(null, {code: 200, msg: 'publish message is ok.'});
+	var result = {
+		topic: 'publish',
+		payload: JSON.stringify({code: 200, msg: 'publish message is ok.'})
+	};
+  next(null, result);
 };
 
 /**
@@ -35,9 +39,13 @@ Handler.prototype.publish = function(msg, session, next) {
  *
  * @param  {Object}   msg     request message
  * @param  {Object}   session current session object
- * @param  {Function} next    next stemp callback
+ * @param  {Function} next    next step callback
  * @return {Void}
  */
 Handler.prototype.subscribe = function(msg, session, next) {
-  next(null, {code: 200, msg: 'subscribe message is ok.'});
+	var result = {
+		topic: 'subscribe',
+		payload: JSON.stringify({code: 200, msg: 'subscribe message is ok.'})
+	};
+  next(null, result);
 };

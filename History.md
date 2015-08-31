@@ -1,3 +1,115 @@
+1.1.9 / 2015-06-05
+=================
+  * [NEW] upgrade pomelo-rpc to 0.4.10
+  * [NEW] upgrade pomelo-admin to 0.4.4
+  * [NEW] upgrade pomelo-logger to 0.1.7
+
+1.1.8 / 2015-05-29
+=================
+  * fix bug on verison calculating when update proto files
+  * avoid modules loading error on windows
+  * [NEW] upgrade pomelo-protocol to 0.1.6
+
+1.1.7 / 2015-05-12
+=================
+  * [#706](https://github.com/NetEase/pomelo/pull/706)
+  * [#707](https://github.com/NetEase/pomelo/pull/707)
+  * [#443](https://github.com/NetEase/pomelo/pull/443)
+  * [#444](https://github.com/NetEase/pomelo/pull/444)
+  * [#713](https://github.com/NetEase/pomelo/pull/713)
+  * [NEW] upgrade pomelo-rpc to 0.4.9
+  * [NEW] upgrade pomelo-admin to 0.4.3
+
+1.1.6 / 2015-03-12
+=================
+  * [NEW] add configure file automatically reload feature
+  * [NEW] add mqtt connector heartbeat timeout option
+  * [NEW] upgrade pomelo-rpc to 0.4.8
+
+1.1.5 / 2015-02-26
+=================
+  * [NEW] upgrade pomelo-rpc to 0.4.7
+
+1.1.4 / 2015-01-23
+=================
+  [#670](https://github.com/NetEase/pomelo/pull/670)
+  [#669](https://github.com/NetEase/pomelo/pull/669)
+  [#666](https://github.com/NetEase/pomelo/pull/666)
+  [#665](https://github.com/NetEase/pomelo/pull/665)
+  [#662](https://github.com/NetEase/pomelo/pull/662)
+  [#659](https://github.com/NetEase/pomelo/pull/659)
+  [#657](https://github.com/NetEase/pomelo/pull/657)
+  [#653](https://github.com/NetEase/pomelo/pull/653)
+
+1.1.2 / 2014-11-12
+=================
+* [NEW] introduce updateUserInfo for connectionService
+  [#637](https://github.com/NetEase/pomelo/pull/637)
+* [FIX] fix wrong variable err using 
+  [#642](https://github.com/NetEase/pomelo/pull/642)
+* [NEW] introduce cancelShutdownHook
+  [#644](https://github.com/NetEase/pomelo/pull/644)
+* [FIX] revert PR #613, which should not be accepted
+  [#649](https://github.com/NetEase/pomelo/pull/649)
+
+1.1.1 / 2014-10-10
+=================
+* [NEW] upgrade pomelo-protocol to 0.1.4
+  [#616](https://github.com/NetEase/pomelo/pull/616)
+* [FIX] incorrect this scope
+  [#622](https://github.com/NetEase/pomelo/pull/622)
+* [FIX] fix bug on arg parse
+  [#623](https://github.com/NetEase/pomelo/pull/623)
+* [FIX] connection without communication bug
+
+1.1.0 / 2014-09-12
+=================
+* [NEW] fit for libpomelo2
+* [NEW] upgrade pomelo-rpc to 0.4.5
+  [#612](https://github.com/NetEase/pomelo/pull/612)
+* [FIX] close http server after WebSocketServer.close
+  [#613](https://github.com/NetEase/pomelo/pull/613)
+* [FIX] update timeout.js
+  [#614](https://github.com/NetEase/pomelo/pull/614)
+* [FIX] fix typo
+
+1.0.4 / 2014-08-26
+=================
+* [NEW] upgrade pomelo-rpc to 0.4.3
+* [NEW] upgrade pomelo-logger to 0.1.6
+* [FIX] pomelo-masterha-plugin reconnect bug miss parameter env
+* [#582](https://github.com/NetEase/pomelo/pull/582)
+
+1.0.3 / 2014-07-18
+=================
+* [NEW] dictVersion : Similar to `protoVersion`, add `dictVersion` and skip sending dict when handshaking if possible.
+  [#572](https://github.com/NetEase/pomelo/pull/572)
+* [FIX] CRON : Upgrade pomelo-scheduler to v0.3.9. Fix a bug that will loss tasks if The number of days next month is greater than this month.
+  [#560](https://github.com/NetEase/pomelo/pull/560)
+  [pomelo-scheduler#4](https://github.com/NetEase/pomelo-scheduler/pull/4)
+* [FIX] hot update : Remove the error logging if a server doesn't have any handler.
+  [#562](https://github.com/NetEase/pomelo/pull/562)
+* [NEW] protobuf : Add `protobuf cache` into libpomelo, and add `useProto` handshake option to tell the client whether to use the protobuf.
+  [#564](https://github.com/NetEase/pomelo/pull/564)
+  [libpomelo#58](https://github.com/NetEase/libpomelo/pull/58)
+  [discuss(chinese)](http://nodejs.netease.com/topic/53c6c126898634292c8157a2)
+
+1.0.2 / 2014-07-10
+=================
+* fix server reconnect bug
+
+1.0.1 / 2014-07-03
+=================
+* merge pull request #538 #541 #545 #546 #547
+* update master watchdog notify method
+* upgrade pomelo-rpc to 0.4.2
+
+1.0.0 / 2014-06-19
+=================
+* mqtt connector
+* support ie6,7,8 with sioconnector
+* support hot update partially
+
 1.0.0-pre / 2014-05-16
 =================
 * add udpconnector
